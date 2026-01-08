@@ -73,6 +73,7 @@ This highlights the interpretability and robustness of **generative probabilisti
 
 ## 📁 Repository Structure
 
+.
 ├── report/
 │ └── Generative_Digit_Classification_and_Inpainting.pdf
 ├── figures/
