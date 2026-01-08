@@ -11,13 +11,13 @@ The project demonstrates how probabilistic generative models can:
 
 ## 📌 Project Overview
 
-Unlike discriminative classifiers that directly learn decision boundaries, this project models the **class-conditional data distribution**:
+Unlike discriminative models that directly learn decision boundaries, this project models the **class-conditional data distribution**.
 
-\[
-P(x \mid y=c) = \sum_{k=1}^{K} \pi_{c,k} \mathcal{N}(x; \mu_{c,k}, \Sigma_{c,k})
-\]
+Each digit class `c` is represented as a mixture of `K` Gaussian components:
 
-Each handwritten digit (0–9) is represented by a **mixture of Gaussians**, enabling the model to capture diverse writing styles and structural variations across digits.
+P(x | y = c) = Σₖ π(c,k) · N(x; μ(c,k), Σ(c,k))
+
+This formulation allows the model to capture multiple writing styles within the same digit class, improving robustness and interpretability.
 
 ---
 
