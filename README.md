@@ -82,7 +82,7 @@ This highlights the interpretability and robustness of **generative probabilisti
 │   ├── accuracy_censored.png
 │   └── reconstruction_examples.png
 ├── code
-│   └── lec13_Final.ipynb
+│   └── FinalCode.ipynb
 └── README.md
 ```
 
