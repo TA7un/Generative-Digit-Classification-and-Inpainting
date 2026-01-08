@@ -69,5 +69,17 @@ The GMM-based approach produces **sharper and more plausible reconstructions** c
 
 This highlights the interpretability and robustness of **generative probabilistic models** under severe data corruption.
 
+---
 
+## 📁 Repository Structure
+
+├── report/
+│ └── Generative_Digit_Classification_and_Inpainting.pdf
+├── figures/
+│ ├── accuracy_uncensored.png
+│ ├── accuracy_censored.png
+│ └── reconstruction_examples.png
+├── code/
+│ └── lec13_Final.ipynb
+└── README.md
 
